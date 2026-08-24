@@ -1,7 +1,7 @@
-import HeroSection from '../../../components/sections/HeroSection';
-import AboutSection from '../../../components/sections/AboutSection';
-import GalerySection from '../../../components/sections/GalerySection';
-import ContactSection from '../../../components/sections/ContactSection';
+import HeroSection from '../../../components/sections/Home/HeroSection';
+import AboutSection from '../../../components/sections/Home/AboutSection';
+import GalerySection from '../../../components/sections/Home/GalerySection';
+import ContactSection from '../../../components/sections/Home/ContactSection';
 
 const Home = () => {
   return (

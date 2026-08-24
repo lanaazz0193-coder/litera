@@ -1,5 +1,5 @@
 import { Outlet } from "react-router";
-import NavBar from '../../components/common/Header';
+import NavBar from '../../components/common/Header/NavBar';
 import Footer from '../../components/common/Footer';
 
 const PortalPublico = () => {

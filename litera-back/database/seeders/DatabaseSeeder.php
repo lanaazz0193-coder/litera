@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         User::factory()->create();
-        Livro::factory(20)->create();
         Projeto::factory(20)->create();
+        Livro::factory(20)->create();
     }
 }

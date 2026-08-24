@@ -1,9 +1,9 @@
-import NavBar from "./NavBar/NavBar";
+import SideBar from "./SideBar";
 
 const Header = ({children}) => {
   return (
    <header>
-    <NavBar/>
+    <SideBar/>
     {children}
    </header>
   );

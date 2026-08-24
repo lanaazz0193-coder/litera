@@ -27,6 +27,9 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link fw-medium ms-lg-3" to="/Login">Entrar</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link fw-medium ms-lg-3" to="/Dashboard">Dasboard</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -40,8 +43,8 @@ const Navbar = () => {
             
          {/* Formulário */}
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-            <button class="btn btn-outline-secondary" type="submit">Search</button>
+            <input class="form-control me-2" type="search" placeholder="" aria-label="Search"/>
+            <button class="btn btn-outline-secondary" type="submit">Buscar</button>
           </form>
             
           </div>
